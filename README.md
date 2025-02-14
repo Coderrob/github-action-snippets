@@ -14,16 +14,16 @@ This repository provides a collection of **Visual Studio Code snippets** for **G
 ## 📌 Installation
 
 1. Create a .vscode folder in your project root (if it doesn’t exist).
-2. Inside .vscode, create or move your github-actions.code-snippets file.
-3. Restart VS Code (Ctrl + Shift + P → Reload Window).
-5. Open a .yml or .yaml file and type the snippet prefix (e.g., gha-workflow).
-6. Manually invoke the snippet picker using:
+1. Inside .vscode, create or move your github-actions.code-snippets file.
+1. Restart VS Code (Ctrl + Shift + P → Reload Window).
+1. Open a .yml or .yaml file and type the snippet prefix (e.g., gha-workflow).
+1. Manually invoke the snippet picker using:
 
-    Windows/Linux: `Ctrl + Space`  
-    Mac: `Cmd + Space`  
+   Windows/Linux: `Ctrl + Space`  
+   Mac: `Cmd + Space`
 
    The snippets should now appear! 🎉
-   
+
 ## 🔥 Available Snippets
 
 ### 1️⃣ GitHub Actions - Branding
@@ -77,7 +77,7 @@ This repository provides a collection of **Visual Studio Code snippets** for **G
 ## 🛠 How to Use
 
 1. Open a `.yml` file inside the `.github/workflows/` directory.
-2. Type the **prefix** (e.g., `gha-workflow`) and select the snippet from the suggestions.
+2. Type the **prefix** (e.g., `gha-`) and select the snippet from the suggestions.
 3. Use the placeholders and tab through the fields to customize.
 4. Save the file and push it to GitHub to trigger the workflow.
 
