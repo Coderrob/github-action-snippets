@@ -76,7 +76,7 @@
     "scope": "yaml"
   },
   "GitHub Actions - Composite Action 'run' Step": {
-    "prefix": "gha-composite-action-run-step",
+    "prefix": "gha-composite-action-step-run",
     "body": [
       "    - name: ${1:Run Command}",
       "      id: ${2:step_id}",
@@ -89,7 +89,7 @@
     "scope": "yaml"
   },
   "GitHub Actions - Composite Action 'uses' Step": {
-    "prefix": "gha-composite-action-uses-step",
+    "prefix": "gha-composite-action-step-uses",
     "body": [
       "    - name: ${1:Use Existing Action}",
       "      id: ${2:step_id}",
@@ -200,7 +200,7 @@
     "scope": "yaml"
   },
   "GitHub Actions - Workflow Job 'run' Step": {
-    "prefix": "gha-workflow-job-run-step",
+    "prefix": "gha-workflow-job-step-run",
     "body": [
       "      - name: ${1:Run Command}",
       "        id: ${2:step_id}",
@@ -213,7 +213,7 @@
     "scope": "yaml"
   },
   "GitHub Actions - Workflow Job 'uses' Step": {
-    "prefix": "gha-workflow-job-uses-step",
+    "prefix": "gha-workflow-job-step-uses",
     "body": [
       "      - name: ${1:Use Existing Action}",
       "        id: ${2:step_id}",
