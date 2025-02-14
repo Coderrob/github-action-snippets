@@ -26,60 +26,60 @@ This repository provides a collection of **Visual Studio Code snippets** for **G
 
 ## 🔥 Available Snippets
 
-### 1️⃣ GitHub Actions - Branding
+### 1️. GitHub Actions - Branding
 
 - **Prefix:** `gha-action-branding`
 - **Description:** Inserts branding details for a custom GitHub Action.
 - **Properties:** `color`, `icon` (predefined values for easy selection).
 
-### 2️⃣ GitHub Actions - Common Environment Variables
+### 2️. GitHub Actions - Common Environment Variables
 
 - **Prefix:** `gha-action-step-env`
 - **Description:** Inserts commonly used GitHub Actions step environment variables.
 - **Includes:** `GITHUB_ACTOR`, `GITHUB_REPOSITORY`, `GITHUB_REF`, `GITHUB_SHA`, `GITHUB_WORKSPACE`, `RUNNER_OS`, `RUNNER_ARCH`.
 
-### 3️⃣ GitHub Actions - Composite Action
+### 3️. GitHub Actions - Composite Action
 
 - **Prefix:** `gha-composite-action`
 - **Description:** Creates a Composite GitHub Action with configurable inputs, outputs, and steps.
 
-### 4️⃣ GitHub Actions - Composite Action 'run' Step
+### 4️. GitHub Actions - Composite Action 'run' Step
 
 - **Prefix:** `gha-composite-action-step-run`
 - **Description:** Inserts a 'run' step for Composite Actions with optional **`if`, `env`, `shell`, and `working-directory`** properties.
 
-### 5️⃣ GitHub Actions - Composite Action 'uses' Step
+### 5️. GitHub Actions - Composite Action 'uses' Step
 
 - **Prefix:** `gha-composite-action-step-uses`
 - **Description:** Inserts a 'uses' step for referencing other actions.
 
-### 6️⃣ GitHub Actions - Docker Action
+### 6️. GitHub Actions - Docker Action
 
 - **Prefix:** `gha-docker-action`
 - **Description:** Provides a template for creating a **Docker-based GitHub Action**.
 
-### 7️⃣ GitHub Actions - Node.js Action
+### 7️. GitHub Actions - Node.js Action
 
 - **Prefix:** `gha-node-action`
 - **Description:** Provides a template for creating a **Node.js 20.x GitHub Action**.
 
-### 8️⃣ GitHub Actions - Workflow Boilerplate
+### 8️. GitHub Actions - Workflow Boilerplate
 
 - **Prefix:** `gha-workflow`
 - **Description:** Inserts a **GitHub Actions Workflow** template with `push` and `pull_request` triggers.
 - **Includes:** `checkout`, `setup-node`, `install dependencies`, and `run tests` steps.
 
-### 9️⃣ GitHub Actions - Workflow Job
+### 9️. GitHub Actions - Workflow Job
 
 - **Prefix:** `gha-workflow-job`
 - **Description:** Inserts a job structure with `runs-on` options and a **job status reference**.
 
-### 4️⃣ GitHub Actions - Workflow Job 'run' Step
+### 10. GitHub Actions - Workflow Job 'run' Step
 
 - **Prefix:** `gha-workflow-job-step-run`
 - **Description:** Inserts a 'run' step for Composite Actions with optional **`if`, `env`, `shell`, and `working-directory`** properties.
 
-### 5️⃣ GitHub Actions - Workflow Job 'uses' Step
+### 11. GitHub Actions - Workflow Job 'uses' Step
 
 - **Prefix:** `gha-workflow-job-step-uses`
 - **Description:** Inserts a 'uses' step for referencing other actions.
