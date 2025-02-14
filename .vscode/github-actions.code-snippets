@@ -23,7 +23,8 @@
       "  color: ${1|blue,green,orange,purple,red,yellow,gray-dark|}",
       "  icon: ${2|alert,arrow-down-circle,arrow-right-circle,arrow-up-circle,bar-chart,bell,book,bookmark,briefcase,calendar,check-circle,check-square,chevron-down,chevron-left,chevron-right,chevron-up,clock,cloud,code,codesandbox,coffee,columns,command,cpu,credit-card,crosshair,disc,dollar-sign,download,edit,file,file-text,flag,folder,git-branch,git-commit,git-merge,git-pull-request,globe,grid,heart,help-circle,home,image,inbox,info,layout,life-buoy,link,list,lock,mail,map,menu,message-circle,message-square,minus-circle,minus-square,monitor,music,package,paperclip,pen-tool,percent,phone,pie-chart,play,plus-circle,plus-square,pocket,printer,radio,refresh-cloud,repeat,save,search,send,server,settings,shield,shopping-cart,shuffle,sidebar,sliders,smartphone,speaker,star,stop-circle,sun,tag,target,terminal,thumbs-down,thumbs-up,trash,triangle,truck,tv,umbrella,upload,user,users,video,watch,wifi,x-circle,x-square,zoom-in,zoom-out|}"
     ],
-    "description": "Insert GitHub Action branding with predefined color and icon options."
+    "description": "Insert GitHub Action branding with predefined color and icon options.",
+    "scope": "yaml",
   },
   "GitHub Actions - Action - Step Env": {
     "prefix": "gha-action-step-env",
@@ -37,7 +38,8 @@
       "  RUNNER_ARCH: ${{ runner.arch }}",
       "  RUNNER_OS: ${{ runner.os }}",
     ],
-    "description": "Insert commonly used GitHub Actions step environment variables."
+    "description": "Insert commonly used GitHub Actions step environment variables.",
+    "scope": "yaml",
   },
   "GitHub Actions - Composite Action": {
     "prefix": "gha-composite-action",
@@ -70,7 +72,8 @@
       "      shell: ${14|bash,pwsh,sh|}",
       ""
     ],
-    "description": "Boilerplate template for a GitHub Composite Action."
+    "description": "Boilerplate template for a GitHub Composite Action.",
+    "scope": "yaml",
   },
   "GitHub Actions - Composite Action 'run' Step": {
     "prefix": "gha-composite-action-run-step",
@@ -82,7 +85,8 @@
       "  run: |",
       "    ${5:echo 'Hello World'}"
     ],
-    "description": "Insert a 'run' step for a GitHub Composite Action."
+    "description": "Insert a 'run' step for a GitHub Composite Action.",
+    "scope": "yaml",
   },
   "GitHub Actions - Composite Action 'uses' Step": {
     "prefix": "gha-composite-action-uses-step",
@@ -93,7 +97,8 @@
       "  with:",
       "    ${4:input_name}: ${5:input_value}"
     ],
-    "description": "Insert a 'uses' step for a GitHub Composite Action."
+    "description": "Insert a 'uses' step for a GitHub Composite Action.",
+    "scope": "yaml",
   },
   "GitHub Actions - Docker Action": {
     "prefix": "gha-docker-action",
@@ -118,7 +123,8 @@
       "  args:",
       "    - ${11:--arg value}"
     ],
-    "description": "Insert a template for a Docker-based GitHub Action."
+    "description": "Insert a template for a Docker-based GitHub Action.",
+    "scope": "yaml",
   },
   "GitHub Actions - Node Action": {
     "prefix": "gha-node20-action",
@@ -141,7 +147,8 @@
       "  using: node20",
       "  main: ${10:./dist/index.js}"
     ],
-    "description": "Insert a template for a Node.js 20.x GitHub Action."
+    "description": "Insert a template for a Node.js 20.x GitHub Action.",
+    "scope": "yaml",
   },
   "GitHub Actions - Workflow": {
     "prefix": "gha-workflow",
@@ -175,7 +182,8 @@
       "        run: npm test",
       "",
     ],
-    "description": "Boilerplate for a GitHub Actions workflow."
+    "description": "Boilerplate for a GitHub Actions workflow.",
+    "scope": "yaml",
   },
   "GitHub Actions - Workflow Job": {
     "prefix": "gha-workflow-job",
@@ -187,6 +195,7 @@
       "      - name: Print Job Status",
       "        run: echo \"Job Status: ${{ job.status }}\""
     ],
-    "description": "Insert a GitHub Actions job with status reference."
+    "description": "Insert a GitHub Actions job with status reference.",
+    "scope": "yaml",
   }
 }
