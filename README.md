@@ -45,12 +45,12 @@ This repository provides a collection of **Visual Studio Code snippets** for **G
 
 ### 4️⃣ GitHub Actions - Composite Action 'run' Step
 
-- **Prefix:** `gha-composite-action-run-step`
+- **Prefix:** `gha-composite-action-step-run`
 - **Description:** Inserts a 'run' step for Composite Actions with optional **`if`, `env`, `shell`, and `working-directory`** properties.
 
 ### 5️⃣ GitHub Actions - Composite Action 'uses' Step
 
-- **Prefix:** `gha-composite-action-uses-step`
+- **Prefix:** `gha-composite-action-step-uses`
 - **Description:** Inserts a 'uses' step for referencing other actions.
 
 ### 6️⃣ GitHub Actions - Docker Action
@@ -60,7 +60,7 @@ This repository provides a collection of **Visual Studio Code snippets** for **G
 
 ### 7️⃣ GitHub Actions - Node.js Action
 
-- **Prefix:** `gha-node20-action`
+- **Prefix:** `gha-node-action`
 - **Description:** Provides a template for creating a **Node.js 20.x GitHub Action**.
 
 ### 8️⃣ GitHub Actions - Workflow Boilerplate
@@ -71,8 +71,18 @@ This repository provides a collection of **Visual Studio Code snippets** for **G
 
 ### 9️⃣ GitHub Actions - Workflow Job
 
-- **Prefix:** `gha-job`
+- **Prefix:** `gha-workflow-job`
 - **Description:** Inserts a job structure with `runs-on` options and a **job status reference**.
+
+### 4️⃣ GitHub Actions - Workflow Job 'run' Step
+
+- **Prefix:** `gha-workflow-job-step-run`
+- **Description:** Inserts a 'run' step for Composite Actions with optional **`if`, `env`, `shell`, and `working-directory`** properties.
+
+### 5️⃣ GitHub Actions - Workflow Job 'uses' Step
+
+- **Prefix:** `gha-workflow-job-step-uses`
+- **Description:** Inserts a 'uses' step for referencing other actions.
 
 ## 🛠 How to Use
 
@@ -86,7 +96,7 @@ This repository provides a collection of **Visual Studio Code snippets** for **G
 **Using the `gha-workflow` snippet:**
 
 ```yaml
-name: Example Workflow
+name: GitHub Workflow
 
 on:
   - push
@@ -97,18 +107,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
+        id: checkout-repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
+        id: setup-node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: '20'
 
       - name: Install Dependencies
+        id: install-dependencies
         run: npm install
 
       - name: Run Tests
+        id: run-tests
         run: npm test
+
 ```
 
 ## 🔍 Contributing
