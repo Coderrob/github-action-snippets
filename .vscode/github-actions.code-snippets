@@ -127,7 +127,7 @@
     "scope": "yaml"
   },
   "GitHub Actions - Node Action": {
-    "prefix": "gha-node20-action",
+    "prefix": "gha-node-action",
     "body": [
       "name: ${1:Node.js GitHub Action}",
       "author: ${2:Your Name}",
